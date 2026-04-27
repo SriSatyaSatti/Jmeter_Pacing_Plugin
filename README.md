@@ -35,3 +35,9 @@ o	Move the generated Dynamic Pacing Timer to the end of your transaction sequenc
 o	Run the test.
 o	To see live updates in the GUI, click away from the Listener and click back to trigger a refresh.
 o	Open the Log Viewer (Yellow triangle in the top right) to see per-sample Load Time and Pacing calculations.
+
+<img width="1004" height="627" alt="image" src="https://github.com/user-attachments/assets/36f16d76-d0f1-42dd-8605-c3442ffaa4a5" />
+
+<img width="1014" height="633" alt="image" src="https://github.com/user-attachments/assets/b33bfbc5-ded3-482b-95d6-064b7c4069b8" />
+
+
