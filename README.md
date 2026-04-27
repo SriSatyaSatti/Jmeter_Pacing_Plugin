@@ -1,7 +1,6 @@
 # Advanced Pacing Calculator for JMeter 🚀
 
 ![JMeter Version](https://img.shields.io/badge/JMeter-5.0+-orange.svg)
-![License](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Type](https://img.shields.io/badge/Plugin-Listener-green.svg)
 
 **Advanced Pacing Calculator** is a custom JMeter Listener designed to simplify workload modeling. It dynamically calculates the required pacing to achieve a target **Transactions Per Hour (TPH)** based on real-time response times, user counts, and hardcoded think times.
