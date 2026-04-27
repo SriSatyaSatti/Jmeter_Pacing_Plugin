@@ -12,11 +12,12 @@ The Advanced Pacing Calculator is a custom JMeter Listener designed to simplify 
 •	Detailed Logging: Prints Load Time, Pacing, and Total Think Time to the JMeter Log Viewer for deep-dive analysis.
 3. Mathematical Logic
 The tool uses the following formulas to ensure high-precision throughput:
-•	Target Cycle Time = (Users * 3600) / (Target TPH / Transactions per Flow)
-•	Total Think Time = (Transactions per Flow - 1) * Hardcoded Think Time
-•	Required Pacing = Target Cycle Time - (Load Time + Total Think Time)
-
-4. User Interface Guide
+<List>
+<ul>•	Target Cycle Time = (Users * 3600) / (Target TPH / Transactions per Flow)</ul>
+<ul>•	Total Think Time = (Transactions per Flow - 1) * Hardcoded Think Time</ul>
+<ul>•	Required Pacing = Target Cycle Time - (Load Time + Total Think Time)</ul>
+   </List>
+5. User Interface Guide
 Field	Description
 Target TPH	The total transactions per hour you want the script to achieve.
 Number of Users	The concurrent thread count in your Thread Group.
@@ -25,7 +26,7 @@ Hardcoded Think Time	The manual delay (in seconds) placed between transactions i
 Required Pacing (ms)	(Output) The delay needed at the end of the iteration to hit the TPH goal.
 Total Think Time (ms)	(Output) The total time spent in manual delays within the flow.
 
-5. Installation & Usage
+6. Installation & Usage
 1.	Deployment: Place the PacingCalc.jar file into the /lib/ext directory of your JMeter installation.
 2.	Adding the Component: Right-click on your Thread Group > Add > Listener > Advanced Pacing Calculator.
 3.	Timer Configuration:
