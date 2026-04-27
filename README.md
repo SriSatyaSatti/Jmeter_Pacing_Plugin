@@ -38,6 +38,8 @@ o	Open the Log Viewer (Yellow triangle in the top right) to see per-sample Load 
 
 <img width="1004" height="627" alt="image" src="https://github.com/user-attachments/assets/36f16d76-d0f1-42dd-8605-c3442ffaa4a5" />
 
+<br>
+
 <img width="1014" height="633" alt="image" src="https://github.com/user-attachments/assets/b33bfbc5-ded3-482b-95d6-064b7c4069b8" />
 
 
